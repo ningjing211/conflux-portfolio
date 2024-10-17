@@ -968,3 +968,25 @@ footer {
     line-height: 20px;
     margin-bottom: 6px;
 }
+
+@media (max-width: 1023px) {
+    nav#filter li {
+        margin-bottom: 24px; /* 減少間距，讓手機上內容不會太稀疏 */
+    }
+}
+
+
+@media (max-width: 767px) {
+    nav#filter {
+        margin-bottom: 0.5em;
+    }
+    nav#filter ul {
+        margin-bottom: 0;
+    }
+    nav#filter li {
+        margin-bottom: 30px; /* 減少間距，讓手機上內容不會太稀疏 */
+    }
+    .col-sm-4 {
+        width: 100%;
+    }
+}
