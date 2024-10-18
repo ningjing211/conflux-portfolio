@@ -9,12 +9,14 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: Montserrat, sans-serif;
 }
 
 body {
     font-size: 14px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: Montserrat, sans-serif, "SuisseIntl Medium", Arial;
+    font-style: normal;
+    /* font-family: 'Roboto', 'sans-serif'; */
     -webkit-font-smoothing: antialiased;
     background: #E4E4E4;
 }
@@ -30,7 +32,7 @@ body {
 }
 
 p {
-    color: #858585;
+    color: #cbcbcb;
 }
 
 .pDark p {
@@ -232,8 +234,9 @@ a {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #858585;
+    color: #8b8b8b;
     font-size: 1.2em;
+    font-weight: 700;
     line-height: normal;
     margin: 17px;
     padding: 6px 10px !important;
@@ -252,6 +255,8 @@ a {
 .header .navbar-nav > li > a {
     padding: 25px 18px;
     text-transform: uppercase;
+
+    
 }
 
 .page-section {
@@ -497,7 +502,7 @@ a {
 }
 
 #portfolio {
-    background: rgb(44, 44, 44);
+    background: #3e4474;
 }
 
     #portfolio img {
@@ -758,7 +763,7 @@ footer {
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #858585;
+        color: #6f6f6f;
         font-size: 1.1em;
         padding: 5px 12px !important;
         border-radius: 5px;
@@ -799,7 +804,7 @@ footer {
         }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #858585;
+        color: #cbcbcb;
         font-size: 1em;
         padding: 5px 7px !important;
         border-radius: 5px;
@@ -954,7 +959,9 @@ footer {
     text-align: center!important;
     top: 0!important;
     justify-content: center;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    font-size: 2em;
+    color: #707070;
 }
 
 .flex {
@@ -990,3 +997,4 @@ footer {
         width: 100%;
     }
 }
+
